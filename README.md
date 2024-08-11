@@ -48,3 +48,10 @@ python -m venv ocr_venv
 source ocr_venv/bin/activate
 # install deps 
 pip install -r requirements.txt
+
+
+# Index images
+python octress.py
+
+# Search text in indexed images
+python guioctress.py
