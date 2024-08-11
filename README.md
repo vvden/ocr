@@ -20,6 +20,11 @@ libperconaserverclient 8.3.0_1-2
 percona-server 8.3.0_1-2
 percona-server-clients 8.3.0_1-2
 
+### install gpicview
+#### used to open images when clicking thumbnails in results
+pacman -Q|grep gpicview
+gpicview 0.2.5-8
+
 ### image storage path
 sudo mkdir -p /opt/images && chown -R you:you /opt/images
 
@@ -42,6 +47,4 @@ python -m venv ocr_venv
 # activate ocr_venv
 source ocr_venv/bin/activate
 # install deps 
-Install the python-pillow on your distro
-pacman -S python-pillow
 pip install -r requirements.txt
