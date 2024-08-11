@@ -1,0 +1,13 @@
+datetime
+fitz
+logging
+PyQt5
+pytesseract
+schedule
+sqlalchemy
+pillow
+fitz
+frontend
+tools
+mysql-connector-python
+PyQt5
